@@ -213,8 +213,8 @@ ggplotly(cleveland_dotplot, tooltip = c("label", "y"))
 
 ```
 
-![](Terrain 1.2.png)
+![](Terrain 1.2.png){fig-align="center" width="350"}
 
-Merci de nous avoir lu et pour votre participation au cours. Nous vous souhaitons une belle session et une bonne continuité dans vos étude.
+Merci de nous avoir lu et pour votre participation au cours. Nous vous souhaitons une bonne continuité dans vos étude.
 
 Au plaisir de se croiser sur le campus!
