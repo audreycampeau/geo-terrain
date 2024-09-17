@@ -13,10 +13,10 @@ format:
     code-summary: "👈 Voir le code ici"
     toc: true
     toc-location: left
+    theme: default
     toc-title: "Table of Content "
     number-sections: true
     embed-resources: true
-
 
 fig-cap-location: margin
 date: today
@@ -59,7 +59,7 @@ library(readxl) # permet d'ouvrir des fichier excel
 library(DT) # produit des tableau interactifs
 
 # Ouvrir la base de données commune
-data <- read_xlsx("../Data/donnees_td_edited.xlsx") # ouvrir la base de données
+data <- read_xlsx("Data/donnees_td_edited.xlsx") # ouvrir la base de données
 
 data$Date=as.Date(data$Date) # formater les dates
 
@@ -175,7 +175,7 @@ ridgeplotA
 
 # Diagramme de sucette \| Flux de CO₂
 
-Malgré quelques difficultés techniques lors de la deuxième semaine, les données des chambres flottantes indiquent que certains lacs étaient bel et bien de grandes sources de CO₂ vers l'atmosphère (p.ex Triton) alors que d'autres étaient de faibles puits de CO₂ (p.ex Croche et Connely)
+Malgré quelques difficultés techniques lors de la deuxième semaine, les données des chambres flottantes indiquent que certains lacs étaient bel et bien de grandes sources de CO₂ vers l'atmosphère (p.ex Triton) alors que d'autres étaient parfois de faibles puits de CO₂ (p.ex Croche et Connelly)
 
 ```{r, warning=F, message=F}
 
@@ -213,8 +213,10 @@ ggplotly(cleveland_dotplot, tooltip = c("label", "y"))
 
 ```
 
-![](Terrain 1.2.png){fig-align="center" width="350"}
+# Mot de la fin
 
 Merci de nous avoir lu et pour votre participation au cours. Nous vous souhaitons une bonne continuité dans vos étude.
 
-Au plaisir de se croiser sur le campus!
+Au plaisir de vous croiser sur le campus!
+
+![](Terrain 1.2.png){fig-align="center" width="350"}
