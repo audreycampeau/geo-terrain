@@ -36,7 +36,7 @@ css: style.css
 
 -   L'usage des produits Plotly (une entreprise montréalaise 😎) vous permet d'interagir avec les diagrammes. Il suffit de passer le curseur sur l'image pour voir des détails s'afficher, comme par exemple: le nom du lac, le nom de l'équipe responsable de l'échantillon ou des valeurs spécifiques.
 
--   Les codes R se trouvent dans les menus déroulants sous l'onglet " 👈 Voir le code ici"
+-   Les codes R se trouvent dans les menus déroulants sous l'onglet " 👈 **Voir le code ici**"
 
 -   Nous espérons que notre travail vous inspirera à vouloir utiliser la programmation R 🫶🏻
 
