@@ -1,5 +1,5 @@
 ---
-title: "Visualisation de données physiques"
+title: "Visualisation des données physiques"
 subtitle: "Terrain 1 en géographie (cohorte 2024)"
 author: "Sarah-Ève Dionne & Audrey Campeau"
 editor: visual
@@ -212,3 +212,9 @@ cleveland_dotplot=ggplot() +
 ggplotly(cleveland_dotplot, tooltip = c("label", "y"))
 
 ```
+
+![](Terrain 1.2.png)
+
+Merci de nous avoir lu et pour votre participation au cours. Nous vous souhaitons une belle session et une bonne continuité dans vos étude.
+
+Au plaisir de se croiser sur le campus!
